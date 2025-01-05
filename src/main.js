@@ -18,12 +18,12 @@ document.querySelector(".brand__show-more").onclick = () => {
         }
         hideBrand = false;
         showMore.textContent = 'Скрыть';
-        showMore.style.backgroundImage = "url(../img/hide.svg)";
+        showMore.style.backgroundImage = "url(img/hide.svg)";
     } else {
         hideBrand = true;
         hideBrands();
         showMore.textContent = 'Показать все';
-        showMore.style.backgroundImage = "url(../img/show-more.svg)";
+        showMore.style.backgroundImage = "url(img/show-more.svg)";
 
     }
     return false
